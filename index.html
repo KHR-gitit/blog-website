@@ -6,11 +6,12 @@
     <title>Blog Website</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="navbar-banner container-xl navbar-light bg-light">
-    <div class="row">
+  <header class="navbar-banner container-xl navbar-light bg-light p-0">
+    <div class="row w-100 px-4">
         <div class="col-md-5">
             <img src="images/WIKITAKE-LOGO-PNG.png" class="img-fluid" alt="">
         </div>
@@ -19,7 +20,7 @@
         </div>
     </div>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,7 +52,7 @@
           <h3 class="h5 fs-3 pb-5">Apple staffs</h3>
           <div class="content pb-3 px-2">
             <p class="display-6 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet eos a blanditiis numquam excepturi corporis labore.</p>
-            <span class="user">Shakir</span>
+            <span class="user"><i class="bi bi-person-square"></i> Shakir</span>
           </div>
         </div>
       </div>
@@ -63,7 +64,7 @@
             <div class="content-box pb-3 px-2">
               <h3 class="h5 fs-3 pb-3">Apple staffs</h3>
               <p class="display-6 fs-6 m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet eos a blanditiis numquam excepturi corporis labore.</p>
-              <span class="user">Shakir</span>
+              <span class="user"><i class="bi bi-person-square"></i> Shakir</span>
             </div>
           </div>
           <div class="col-md-6 p-0 tile position-relative">
@@ -72,7 +73,7 @@
             <div class="content-box pb-3 px-2">
               <h3 class="h5 fs-3 pb-3">Apple staffs</h3>
               <p class="display-6 fs-6  m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet eos a blanditiis numquam excepturi corporis labore.</p>
-              <span class="user">Shakir</span>
+              <span class="user"><i class="bi bi-person-square"></i> Shakir</span>
             </div>
           </div>
           <div class="col-md-6 p-0 tile position-relative">
@@ -81,7 +82,7 @@
             <div class="content-box pb-3 px-2">
               <h3 class="h5 fs-3 pb-3">Apple staffs</h3>
               <p class="display-6 fs-6  m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet eos a blanditiis numquam excepturi corporis labore.</p>
-              <span class="user">Shakir</span>
+              <span class="user"><i class="bi bi-person-square"></i> Shakir</span>
             </div>
           </div>
           <div class="col-md-6 p-0 tile position-relative">
@@ -89,8 +90,8 @@
             <span class="badge bg-primary cat">Mobile</span>
             <div class="content-box pb-3 px-2">
               <h3 class="h6 fs-3 pb-1">Apple staffs</h3>
-              <p class="display-6 fs-6  m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet eos a blanditiis numquam excepturi corporis labore.</p>
-              <span class="user">Shakir</span>
+              <p class="display-6 fs-6  m-0 p-0 pb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet eos a blanditiis numquam excepturi corporis labore.</p>
+              <span class="user"><i class="bi bi-person-square"></i> Shakir</span>
             </div>
           </div>
         </div>
@@ -100,11 +101,166 @@
 
   
 
-  <div class="container-lx">
+ <div class="container-xl py-5">
     <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6"></div>
-      <div class="col-md-3"></div>
+      <div class="col-md-3 d-none d-md-block">
+        <img src="https://images.unsplash.com/photo-1511500689707-95c63a1fd769?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" class="img-fluid" alt="">
+        
+      </div>
+      <div class="col-md-6 col-sm-9 col-xs-12">
+        <ul class="list-group">
+          <li class="list-group-item border-0 list-group-item-secondary mb-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/posts/computer-tech.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="badge bg-primary cat">
+                  Computer
+                </div>
+                <h2>
+                  How to set up a new computer
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore maxime. <span class="text-primary">Read more ...</span>
+                </p>
+                <div class="user">
+                  <i class="bi bi-person-square"></i> Shakir
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 list-group-item-secondary mb-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/posts/computer-tech.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="badge bg-primary cat">
+                  Computer
+                </div>
+                <h2>
+                  How to set up a new computer
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore maxime. <span class="text-primary">Read more ...</span>
+                </p>
+                <div class="user">
+                  <i class="bi bi-person-square"></i> Shakir
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 list-group-item-secondary mb-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/posts/computer-tech.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="badge bg-primary cat">
+                  Computer
+                </div>
+                <h2>
+                  How to set up a new computer
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore maxime. <span class="text-primary">Read more ...</span>
+                </p>
+                <div class="user">
+                  <i class="bi bi-person-square"></i> Shakir
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 list-group-item-secondary mb-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/posts/computer-tech.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="badge bg-primary cat">
+                  Computer
+                </div>
+                <h2>
+                  How to set up a new computer
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore maxime. <span class="text-primary">Read more ...</span>
+                </p>
+                <div class="user">
+                  <i class="bi bi-person-square"></i> Shakir
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 list-group-item-secondary mb-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/posts/computer-tech.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="badge bg-primary cat">
+                  Computer
+                </div>
+                <h2>
+                  How to set up a new computer
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore maxime. <span class="text-primary">Read more ...</span>
+                </p>
+                <div class="user">
+                  <i class="bi bi-person-square"></i> Shakir
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 list-group-item-secondary mb-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/posts/computer-tech.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="badge bg-primary cat">
+                  Computer
+                </div>
+                <h2>
+                  How to set up a new computer
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore maxime. <span class="text-primary">Read more ...</span>
+                </p>
+                <div class="user">
+                  <i class="bi bi-person-square"></i> Shakir
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 list-group-item-secondary mb-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/posts/computer-tech.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="badge bg-primary cat">
+                  Computer
+                </div>
+                <h2>
+                  How to set up a new computer
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore maxime. <span class="text-primary">Read more ...</span>
+                </p>
+                <div class="user">
+                  <i class="bi bi-person-square"></i> Shakir
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3 d-none d-sm-block">
+        <img src="https://images.unsplash.com/photo-1511500689707-95c63a1fd769?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" class="img-fluid" alt="">
+      </div>
     </div>
   </div>
 
