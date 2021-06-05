@@ -1,4 +1,3 @@
 # blog-website
 
-
-https://github.com/KHR-gitit/blog-website/settings
+https://khr-gitit.github.io/blog-website/
